@@ -12,7 +12,9 @@ app = FastAPI(
 
 @app.get('/')
 def home():
-    return 'Hello miner bot !!!'
+    return {
+        "message": "Hello my friend"
+    }
 
 
 # if __name__ == "__main__":
