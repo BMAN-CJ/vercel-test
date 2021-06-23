@@ -12,9 +12,7 @@ app = FastAPI(
 
 @app.get('/')
 def home():
-    return {
-        "message": "Hello my friend"
-    }
+    return 'vercel is cool'
 
 
 # if __name__ == "__main__":
